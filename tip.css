@@ -1,0 +1,98 @@
+body{
+    font-family: Roboto;
+    background:#7db919;
+    /*fall back for old browser*/
+    background: -webkit-linear-gradient(to left, #8E0E00,#1F1C18);
+    background: linear-gradient(to left,#7db919,#1f1c18);
+    /*chrome 10-25 Safari */
+}
+#container{
+    height: 725px;
+    width: 460px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+}
+h1{
+    background: #1f030c;
+    color: white;
+    margin: 0;
+    padding:10px 100px;
+    text-transform:uppercase;
+    font-size: 25px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+p{
+    padding-left: 20px;
+}
+form input[type="text"]{
+    width: 90px;
+}
+input{
+    padding-left: 20px;
+}
+#billamt{
+    font-size: 14px;
+   /* color: #2980b9;*/
+    color: red;
+    background-color: #f7f7f7;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+}
+#billamt:focus{
+    background: #fff;
+    background: 3px solid #2980b9;
+}
+#peopleamt{
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    background-color: #f7f7f7;
+    color:red;
+    font-size: 14px;
+}
+#serviceQual{
+    padding: 13px 13px 20px 20px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin:30px auto;
+    background: #ad133a;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color:white
+}
+button:hover{
+    background:#4c2728;
+    border-bottom-color: #111;
+}
+button:active{
+    position: relative;
+    top: 1px;
+}
+#totalTip{
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+}
+#totalTip sub{
+    font-size: 20px;
+    top: -18px;
+}
+#totalTip small{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
